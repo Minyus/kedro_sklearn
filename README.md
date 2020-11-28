@@ -9,8 +9,6 @@ Pipeline visualized by Kedro-viz
 
 ## How to run:
 
-### 0: Download `train.csv` and `test.csv` from [Kaggle Titanic](https://www.kaggle.com/c/titanic/data) to `data/input` directory
-
 ### 1. Install dependencies
 
 ```bash
@@ -19,11 +17,20 @@ $ pip install kedro scikit-learn pandas kedro-viz
 
 Note: `kedro-viz` is optional.
 
-### 2. Clone this repository and run `main.py`
+### 2. Clone this repository and cd into it
 
 ```bash
 $ git clone https://github.com/Minyus/kedro_sklearn.git
 $ cd kedro_sklearn
+```
+
+### 3. Go to next step to use the Iris datasets included in this project. 
+
+Optionally, you may dowonload another dataset such as [Kaggle Titanic](https://www.kaggle.com/c/titanic/data), replace  `train.csv` and `test.csv` in `data/input` directory, and modify `base/parameters.yml` to set parameters appropriate for the dataset.
+
+### 4. Run `main.py`
+
+```bash
 $ python main.py
 ```
 
