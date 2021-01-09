@@ -1,5 +1,8 @@
 # Kedro Scikit-learn
 
+## This project works with Kedro 0.16.x only.
+## Please use [kedro-starters-sklearn](https://github.com/Minyus/kedro-starters-sklearn) which works with Kedro 0.17.x.
+
 A simple example project using Kedro and Scikit-learn
 
 <p align="center">
